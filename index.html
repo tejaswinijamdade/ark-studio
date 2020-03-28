@@ -1,158 +1,136 @@
 <!-- In this file you are going to write html code -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="styles/main.css" type="text/css" rel="stylesheet">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    </head>
-    <body>
-
-            <div class="box"><img src="img/billboard.jpg" class="hero"></div>
-           
-           
-            <header class="transparent_nav">
-               
-                    <nav class="nav_bar">
-                        
-                        <ul id="nav_list">  
-                            <div class="logo">
-                                 <div class="pos"><img src="img/logo.png" height="83px"></img></div>
-                             </div>  
-                            <li><a id="nav_item_1" href="#">Our Story</a> </li>
-                            <li><a id="nav_item_2" href="#">Products</a> </li>
-                            <li><a id="nav_item_3" href="#">Journal</a> </li>
-                            <li><a id="nav_item_4" href="#">Contact</a> </li>                                       
-                        </ul>
-                        
-                    </nav>
-            </header>
-            <section class="cta">
-                    <p style="position: relative;left: 20px;font-size: 24px;" id="cta_text">
-                        Have a project in mind? We would love to hear from you!
-                    </p>
-                     <div> 
-                         <a id="cta_link" href="#Get">GET IN TOUCH WITH US</a>
-                     </div>
-           </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/main.css">
+    <!--<link rel="stylesheet" href="../ark-studio/styls/reset.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <Header class="transparent_nav">
+        <nav class="nav_bar">
+            <img src="img/logo.png" alt="logo">
+            <ul id="nav_list">
+                <li><a href="#Our Story" id="nav_item_1">Our Story</a></li>
+                <li><a href="#Products" id="nav_item_2">Products</a></li>
+                 <li><a href="#Journal" id="nav_item_3">Journal</a></li>
+                <li><a href="#Contact" id="nav_item_4">Contact</a></li>
+            </ul>
+        </nav>       
+    </Header>
         
-        <div class="servicesHead">
-               
-               <h2 >We are ARK studio, we make awesome stuff!</h2> 
-               <img src="img/separator.png">
-            
+    
+    
+    <section class="services wrapper">
+        <!--<div class="tablee">-->
+        <div class="s_inner">
+            <h3><b>We are ARK Studio, We make awesome stuff</b></h3>
         </div>
-        
-           <section class="services wrapper">
-               <div class="services_wrapper">
-                 
-               <ul>
-                   <li> <img src="img/s1.png"><h3>occaecat cupidatat</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p></li>
-                   <li> <img src="img/s2.png"><h3>occaecat cupidatat</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p></li>
-                   <li> <img src="img/s3.png"><h3>occaecat cupidatat</h3><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p></li>
-               </ul>
-            
-               </div>
-           </section>
-        
-           <section class="recent_work">
-                      <div><img src="img/w1.jpg" width="300"></div>
-                      <div><img src="img/w2.jpg" width="300"></div>
-                      <div><img src="img/w3.jpg" width="300"></div>
-                      <div><img src="img/w4.jpg" width="300"></div>
-                      <div><img src="img/w5.jpg" width="300"></div>
-           </section>
-        
-        
-           <section class="testimonials wrapper">
-               <div class="testimonials_wrapper">
-               <div style="width: 100%; text-align: center;"><h2>TESTIMONIALS</h2></div>
-               
-               <div class="flex_container3">
-                   
-                   <ul>
-                      <li><img src="img/client1.jpg"> <h3>John Doe</h3> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p> </li>
-                   
-                   
-                      <li><img src="img/client2.jpg"> <h3>John Doe</h3> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p> </li>
-                   
-                   
-                   
-                      <li><img src="img/client3.jpg"> <h3>John Doe</h3> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p> </li>
-                   </ul>
-               
-               </div>
+        <div id="verticalLine"></div>
+        <div id="colorstrip"></div>
+        <div id="s_left"></div>
+        <div id="s_right"></div>
+        <div class="s_outer">
+            <ul>
+                <li><img src="img/s1.png" alt="" class="imgg"> <br>
+                  <br><span class="desc"><b>Management</b></span>
+                   <br><br><q class="quote">Lorem ipsum dolor sit amet. <br>Lorem, ipsum dolor.</q>
+                </li>
+                <li><img src="img/s2.png" alt="" class="imgg"> <br>
+                   <br><span class="desc"><b>Software</b></span>
+                   <br><br><q class="quote"> Lorem ipsum dolor sit amet. <br>Lorem, ipsum dolor.</q>
+                </li>
+                <li><img src="img/s3.png" alt="" class="imgg"><br>
+                   <br><span class="desc"><b>Training</b></span>
+                    <br><br><q class="quote">Lorem ipsum dolor sit amet. <br>Lorem, ipsum dolor.</q>
+               </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="recent_work">
+
+        <div class="box"><img src="img/w1.jpg" alt=""></div>
+        <div class="box"> <img src="img/w2.jpg" alt=""></div>
+        <div class="box"><img src="img/w3.jpg" alt=""></div>
+        <div class="box"><img src="img/w4.jpg" alt=""></div>
+        <div class="box"><img src="img/w5.jpg" alt=""></div>
+
+    </section>
+
+    <section class="testimonials wrapper">
+        <!--<div class="table">-->
+            <div class="inner">
+                <h3><b>TESTIMONIALS</b></h3>
             </div>
-           </section>
-        
-          <div class="transparent_foot">
-            <div class="flex_brand">
-                  <div><img src="img/client_logo.png"></div>
-                  <div><img src="img/client_logo.png"></div>
-                  <div><img src="img/client_logo.png"></div>
-                  <div><img src="img/client_logo.png"></div>
-                  <div><img src="img/client_logo.png"></div>
-                  <div><img src="img/client_logo.png"></div>
-             </div>
+            <div class="outer">
+                <ul>
+                    <li><img src="img/client1.jpg" alt="">
+                        <span class="author"><b>John Doe</b> /Manager</span>
+                        <q class="test-quote">Lorem ipsum dolor sit<br>amet consectetur adipisicing elit.<br>Obcaecati,nisi?</q>
+                    </li>
+                    <li><img src="img/client2.jpg" alt="">
+                        <span class="author"><b>John Doe</b> /UI Designer</span>
+                        <q class="test-quote">Lorem ipsum dolor sit<br>amet consectetur adipisicing elit.<br>Obcaecati,nisi?</q>
+                    </li>
+                    <li><img src="img/client3.jpg" alt="">
+                        <span class="author"><b>John Doe</b> /SEO Expert</span>
+                        <q class="test-quote">Lorem ipsum dolor sit<br>amet consectetur adipisicing elit.<br>Obcaecati,nisi?</q>
+                    </li>
+                <ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="brand"></div>
+
+    <footer class="base">
+        <div class="footer_widget">
+           
+            <section class="cta">
+                <ul id="bar"> 
+                    <li> <p id="cta_text">Have a project in mind? We would love to hear from you!</li>                                                     
+                    <li><a href="#Contact" id="cta_link">GET IN TOUCH WITH US</a></li>
+                </ul>
+            </section>
+          <div class="first">
+              <h2><b>Location</b></h2>
+              <ul id="loc-list"> <br>
+                <li>3301 New Mexico Avenue class <br>Washigton, DC 20010 <br><b>(202) 537-0787</b></li> <br><br>
+                <li><!--<img src="../ark-studio/img/social.png" alt="">-->
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </li>
+              </ul>
           </div>
-              
-        
-            
-            <div class="foot_widget">
-                           <div id="footer1">
-                                   
-                                    <div class="cta2" style="padding-left: 10px; ">
-                                            <p id="">
-                                                Have a project in mind? We would love to hear from you!
-                                            </p>
-                                    </div> 
-                                    
-                                    <div> 
-                                         <a id="cta2_link" href="#Get" >GET IN TOUCH WITH US</a>
-                                    </div>
-                           </div>
-                </div>
-        <footer>
-            <div class="footer_widget">
-                               <div>
-                                   <h3>Location</h3>
-                                   <p>3301 New Mexico Avenue</p> <p>Washington, DC 20016 </p><p>(202)537-0780</p>
-                                   <img src="img/social.png" >
-                               </div>
-                               
-                               <div>
-                                   <h3>Company</h3>
-                                   
-                                   <ul id="comp_list">
-                                   <li id="comp_item_1"><a>Our Story</a></li>
-                                   <li id="comp_item_2"><a>Mission</a></li>
-                                   <li id="comp_item_3"><a>Journal</a></li>
-                                   <li id="comp_item_4"><a>Careers</a></li>
-                                   </ul>
-                                   
-                                  
-                               </div>
-                               
-                               <div>
-                                    <h3>Company</h3>
-                                   
-                                   <ul id="sup_list">
-                                       <li id="sup_item_1"><a>FAQ</a></li>
-                                       <li id="sup_item_2"><a>Contact Us</a></li>
-                                       <li id="sup_item_3"><a>Policies</a></li>
-                                   </ul>
-                               </div>
-                               
-                               <div>
-                                   <h3>ARK Studio</h3>
-                                   <p>Ut enim ad minim veniam, quis nostrud exerca</p> <p> ullamco nisi ut aliquipnisi ut aliquipnisi ut  laboris</P> <P>nisi ut aliquip.</p>
-                                  
-                               </div>
-            </div>
-            
-                 <div>
-                       <p  class="rights">2014 ARK Studio - All Rights Reserved</p>
-                </div>
-        </footer>
-    </body>
+          <div  class="second">
+              <h2><b>Company</b></h2><br>
+              <ul id="comp_list">
+                <li><a href="#" id="comp_item_1">Our Story</a></li>
+                <li><a href="#" id="comp_item_2">Mission</a></li>
+                <li><a href="#" id="comp_item_3">Journal</a></li>
+                <li><a href="#" id="comp_item_4">Careers</a></li><br>
+              </ul>
+          </div>
+          <div class="third">
+              <h2><b>Support</b></h2><br>
+                <ul id="sup_list"> <br>
+                    <li><a href="#" id="sup_item_1">FAQ</a></li>
+                    <li><a href="#" id="sup_item_2">Contact Us</a></li>
+                    <li><a href="#" id="sup_item_3">Policies</a></li><br><br>
+                </ul>
+          </div>
+          <div class="four">
+              <h2><b>ARK Studio</b></h2><br><br>
+               <p>Lorem, ipsum dolor sit <br>  amet consectetur <br> adipisicing elit. <br> Eius id sequi iusto a!</p><br> <br>
+          </div>
+          <p class="rights">2014 ARK Studio - All Rights Reserved</p>
+        </div> 
+    </footer>
+</body>
 </html>
